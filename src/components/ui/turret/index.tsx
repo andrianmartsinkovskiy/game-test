@@ -1,7 +1,8 @@
 import cls from './index.module.css'
 import DoubleActionsButton from "@/components/ui/btn/double-actions-button";
+import {FC} from "react";
 
-const Turret = () => {
+const Turret: FC<any> = () => {
   return (
     <div className={cls.turret}>
       <div className={cls.head}>
