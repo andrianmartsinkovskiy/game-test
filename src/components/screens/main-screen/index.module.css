@@ -1,0 +1,144 @@
+.wrap {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  position: relative;
+}
+
+.options {
+  position: absolute;
+  left: 20px;
+  top: 20px;
+}
+
+.cameraToggle {
+  position: absolute;
+  left: 20px;
+  top: 70px;
+  color: #fff;
+  cursor: pointer;
+  display: none;
+}
+
+.topLine {
+  transform: translateX(-50%);
+  position: absolute;
+  top: 20px;
+  left: 50%;
+  width: 851px !important;
+  height: 45px;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.fire {
+  left: calc(55% + 80px);
+  top: 190px;
+  position: absolute;
+}
+
+.login {
+  position: absolute;
+  right: 30px;
+  top: 200px;
+  z-index: 51;
+}
+
+.camera {
+  position: absolute;
+  left: 100px;
+  width: 650px;
+  top: 100px;
+}
+
+.cameraOff {
+  border: 2px solid #8a1010;
+  background-color: #8a1010;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  font-size: 24px;
+  z-index: 44;
+  top: 35px;
+  left: 10px;
+  color: #fff;
+  display: none;
+}
+
+.bottom {
+  padding: 20px 30px;
+  display: grid;
+  grid-template-columns: 2fr 2fr 2fr 2fr 2fr 2fr 2fr 2fr 4fr;
+  height: 216px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100vw;
+  right: 0;
+  column-gap: 30px;
+}
+
+.bottom::-webkit-scrollbar {
+  display: none;
+}
+
+.bottomMobile {
+  padding: 20px 30px;
+  height: 216px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.swiperButtons {
+  position: absolute;
+  top: -60px;
+  transform: translateY(20px);
+  display: flex;
+  column-gap: 10px;
+  align-items: center;
+}
+
+.firstDec {
+}
+
+.axis {
+  display: grid;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.rightItem {
+  display: grid;
+  align-items: flex-end;
+}
+
+.centerBlock {
+}
+
+.marginTop {
+  margin-top: 20px;
+}
+
+.toggleBar {
+  position: absolute;
+  top: 30px;
+  right: 15px;
+  color: #fff;
+  font-size: 20px;
+  cursor: pointer;
+  display: none;
+}
+
+@media screen and (max-width: 1600px) {
+  .bottom {
+    grid-template-columns: 2fr 2fr 2fr 2fr 2fr 2fr 1fr 3fr;
+  }
+
+  .firstDec {
+    display: none;
+  }
+}

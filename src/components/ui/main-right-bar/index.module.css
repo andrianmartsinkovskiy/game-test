@@ -1,0 +1,16 @@
+.wrap {
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  width: 240px;
+  display: grid;
+  row-gap: 6px;
+  z-index: 50;
+}
+
+.body {
+  min-height: 329px;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
